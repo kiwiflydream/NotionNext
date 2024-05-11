@@ -142,9 +142,6 @@ const LayoutBase = props => {
               ? 'flex-row-reverse'
               : '') + 'relative flex justify-between w-full h-full mx-auto'
           }>
-                  <div class="language">
-   <img src="https://cdn.jsdelivr.net/gh/get-web/google-translate-custom-widget@master/nativejs/images/lang/lang__en.png" alt="en" data-google-lang="en" class="language__img"/>
-</div>
           {/* 左侧推拉抽屉 */}
           {fullWidth ? null : (
             <div
