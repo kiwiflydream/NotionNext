@@ -127,7 +127,9 @@ const LayoutBase = props => {
         changePageNavVisible
       }}>
       <Style />
-
+      <div class="language">
+   <img src="https://cdn.jsdelivr.net/gh/get-web/google-translate-custom-widget@master/nativejs/images/lang/lang__en.png" alt="en" data-google-lang="en" class="language__img"/>
+</div>
       <div
         id='theme-gitbook'
         className={`${siteConfig('FONT_STYLE')} scroll-smooth bg-white dark:bg-hexo-black-gray w-full h-full min-h-screen justify-center dark:text-gray-300`}>
