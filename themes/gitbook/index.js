@@ -134,7 +134,9 @@ const LayoutBase = props => {
 
         {/* 顶部导航栏 */}
         <Header {...props} />
-
+        <div class="language">
+   <img src="https://cdn.jsdelivr.net/gh/get-web/google-translate-custom-widget@master/nativejs/images/lang/lang__en.png" alt="en" data-google-lang="en" class="language__img"/>
+</div>
         <main
           id='wrapper'
           className={
